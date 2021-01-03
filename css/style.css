@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Clubs Style */
+#body-content .clubs p {
+  font-size: 1rem;
+  text-align: center;
+}
+#body-content .clubs img {
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+#body-content .slide p {
+  font-size: 1.8rem;
+}
+
+/* Managers Style*/
+#body-content .managers img{
+  height: 25px;
+  object-fit: contain;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+#body-content .news img {
+  height: 300px;
+  margin-bottom: 5px;
+}
+#body-content .news span {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 513px) {
+  #body-content .clubs label {
+    font-size: 0.9rem;
+  }
+
+  #body-content .tables h3 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  .page-footer h6 {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Submission Dicoding",
+  "short_name": "Submission Dicoding",
+  "description": "Submission Dicoding PWA",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "purpose": "any maskable",
+  "background_color": "#00897B",
+  "theme_color": "#00897B",
+  "icons": [
+    {
+      "src": "assets/icon.png",
+      "sizes": "1300x1300",
+      "type": "image/png"
+    }
+  ]
+}
